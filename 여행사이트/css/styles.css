@@ -1,0 +1,30 @@
+#photo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+#logo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+}
+#menu{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.menuFont{
+  font-family: 'Helvetica';
+  color: #58595B;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.main{
+  font-weight: 700;
+}

@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  padding: 0 20px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+  height: 60px;
+}
+
+#logo {
+  float: left;
+  display: inline-block;
+  line-height: 60px;
+}
+
+#logo img{
+  vertical-align: middle;
+}
+
+.hero-header {
+  background-image: url("../images/hero_image.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 670px;
+  line-height: 670px;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.hero-header .info {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.hero-header .info h1 {
+  line-height: normal;
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 13px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info h2 {
+  line-height: normal;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 60px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-header .info a {
+  line-height: normal;
+  font-size: 14px;
+  background-color: white;
+  color: #464273;
+  padding: 10px 40px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#menu{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+}
+
+#menu li{
+  float: left;
+}
+
+#menu li a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#menu li a:hover{
+  background-color: #eeeeee;
+}

@@ -1,0 +1,26 @@
+@font-face{
+    src: url("../../fonts/윈도우용/BMDOHYEON_ttf.ttf");
+    font-family: "beamin";
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-family: "beamin";
+}
+
+h2{
+    color: gray;
+}
+
+img{
+    /*주석은 html과 css에서 사용법이 다르다.*/
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

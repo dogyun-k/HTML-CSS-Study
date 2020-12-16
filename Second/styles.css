@@ -1,0 +1,20 @@
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    text-align: center;
+}
+
+.info{
+    background-color: lime;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.helper{
+    display: inline-block;
+    vertical-align: middle;
+    
+    width: 10px;
+    background-color: red;
+}

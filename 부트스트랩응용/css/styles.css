@@ -1,0 +1,93 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.carousel{
+  margin-bottom: 50px;
+}
+.carousel-item {
+  text-align: center;
+  height: 400px;
+}
+.carousel-item h5{
+  font-size: 32px;
+  color: white;
+}
+.carousel-item p{
+  font-size: 22px;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 48px;
+}
+.carousel-item a{
+  text-decoration: none;
+  font-size: 16px; 
+  color: white;
+  background-color: #5900e7;
+  padding: 10px 30px;
+}
+.carousel-item.item1{
+  background-image: url("../images/guitar.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item.item2{
+  background-image: url("../images/makeup.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item.item3{
+  background-image: url("../images/cooking.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.intro{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.alert{
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.container{
+  padding: 0 15px;
+}
+.container a{
+  text-decoration: none;
+}
+.container .info{
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.container .info img{
+  width: 100%;
+}
+.container .info h6{
+  font-size: 16px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  display: block;
+}
+.container .info p{
+  font-size: 13px;
+  text-decoration: none;
+  color: #4a4a4a;
+  display: inline;
+}
+.container .info-container{
+  padding: 10px;
+}
+.container .info .userIcon{
+  height: 20px;
+  width: 20px;
+}
